@@ -1,7 +1,30 @@
 aid: nibbles-pbc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nibbles-pbc.png
 name: Nibbles PBC
-description: Nibbles PBC is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Nibbles PBC is a public benefit company building consumer financial and
+  insurance products that make pet ownership easier. Its flagship product is the
+  Nibbles credit card, a Mastercard that bundles built-in pet insurance and pet-
+  focused rewards for cardholders. The company operates a consumer web
+  application and account portal at nibbles.com (formerly reached via the
+  nibbl.es short domain) covering sign-up, sign-in, card management, insurance
+  policies, and rewards. Nibbles PBC was surfaced as a portfolio company of 500
+  Global and added to the API Evangelist network. As of this enrichment pass the
+  company publishes no developer API, SDK, OpenAPI specification, or developer
+  portal; its public surface is a consumer product site, help center, and legal
+  agreements. This profile therefore captures verified company identity and
+  domain-security posture only.
 url: https://raw.githubusercontent.com/api-evangelist/nibbles-pbc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +34,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Pet
+- Insurance
+- Financial Services
+- Credit Card
+- Consumer
+- Public Benefit Company
+- Rewards
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nibbles-pbc-domain-security.yml
 - type: Website
-  url: https://nibbl.es
+  url: https://nibbles.com
+- type: About
+  url: https://nibbles.com/about-us/
+- type: SignUp
+  url: https://nibbles.com/q/signup
+- type: Login
+  url: https://nibbles.com/q/signin
+- type: Support
+  url: https://support.nibbles.com/hc/en-us
+- type: TermsOfService
+  url: https://nibbles.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://nibbles.com/privacy-policy/
