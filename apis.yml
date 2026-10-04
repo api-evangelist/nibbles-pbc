@@ -50,7 +50,7 @@ tags:
 - Company
 - Pets
 - Insurance
-- Financial-Services
+- Financial Services
 - Credit Cards
 - Consumer
 - Public Benefit Company
@@ -64,6 +64,7 @@ tags_raw:
 - Consumer
 - Public Benefit Company
 - Rewards
+- Financial-Services
 apis: []
 x-enrichment:
   date: '2026-07-20'
